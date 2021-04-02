@@ -7,8 +7,8 @@ public class ClassesObjetos {
 		//Objeto da classe produto
 		Produto bebida = new Produto();
 		bebida.item = "Bebida";
-		bebida.nome = "¡gua";
-		bebida.modelo = "sem G·s";
+		bebida.nome = "√Ågua";
+		bebida.modelo = "sem G√°s";
 		bebida.tamanho = 1;
 		bebida.preco = (float) 0.8;
 		bebida.quantidade = 10;
@@ -27,7 +27,7 @@ public class ClassesObjetos {
 		
 		Produto livro = new Produto();
 		livro.item = "Livro";
-		livro.nome = "Harry Potter e o C·lice de Fogo";
+		livro.nome = "Harry Potter e o C√°lice de Fogo";
 		livro.modelo = "ilustrado";
 		livro.tamanho = 592;
 		livro.preco = (float) 17.91;
@@ -35,29 +35,6 @@ public class ClassesObjetos {
 		livro.detalhes();
 		livro.itemdisponivel();
 		
-
-		/*
-		 * 
-Papelaria (todos)
-Cadernos, Blocos de Notas e Recargas
-Escrita e Colorir
-Material Escolar e EscritÛrio
-Mochilas, Estojos e Sacos
-Arquivo e OrganizaÁ„o
-Papel de Impress„o
-Presentes e Embrulhos
-Revistas, Jornais e Cromos
-
-
-
-Livraria (todos)
-Literatura
-Infantil/Juvenil
-ColeÁıes juvenis
-Apoio Escolar e TÈcnicos
-Plano Nacional de Leitura
-Sa˙de, Lazer e Bem-estar
-		 */
 
 	}
 
