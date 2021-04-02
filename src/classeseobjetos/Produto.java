@@ -17,58 +17,23 @@ public class Produto {
 			System.out.println(this.tamanho +" l");
 		}
 		else if(item == "Livro"){
-			System.out.println(this.tamanho +" páginas");
+			System.out.println(this.tamanho +" pÃ¡ginas");
 		}
 		else if (item == "Tesoura"){
-			System.out.println(this.tamanho +" centímetros");
+			System.out.println(this.tamanho +" centÃ­metros");
 		}
 
-		System.out.println("Preço: €" + this.preco);
+		System.out.println("PreÃ§o: â‚¬" + this.preco);
 	}
 
 	public void itemdisponivel(){
 		if (quantidade > 0){
 			System.out.println("Produto em estoque");
 		} else {
-			System.out.println("Produto indisponível");
+			System.out.println("Produto indisponÃ­vel");
 		}
 		System.out.println("\n");
 	}
-
-	//	medidas
-
-
-	/* comprimento
-	 * Quilómetro(km)
-	Hectómetro(hm)
-	Decametro(dam)
-	Metro(m)
-	Decímetro(dm)
-	Centímetro(cm)
-	Milímetro(mm)
-
-	 *
-	 *
-	 *capacidade
-	 *     Quilolitro(kl)
-	Hectolitro(hl)
-	Decalitro(dal)
-	Litro(l)
-	Decilitro(dl)
-	Centilitro(cl)
-	Mililitro(ml)
-	 */
-
-	/*
-	 * Quilogrma(kg)
-	Hectograma(hg)
-	Decagrama(dag)
-	Grama(g)
-	Decigrama(dg)
-	Centigrama(cg)
-	Miligrama(mg)
-	 */
-
 
 
 }
