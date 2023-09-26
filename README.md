@@ -4,7 +4,7 @@ Conceitos básicos para quem está iniciando na linguagem.
 
 ## Classes e objetos
 
-Neste primeiro pacote criamos vários objetos da classe Produto que foi instanciada.
+Neste primeiro pacote criamos vários objetos da [classe Produto](https://github.com/andreddias/java/blob/master/src/classeseobjetos/Produto.java) que foi instanciada.
 
 ## Contrutor
 
